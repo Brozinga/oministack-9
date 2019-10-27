@@ -1,0 +1,70 @@
+@import "../../assets/css/variables.scss";
+
+.container {
+    margin: 80px auto;
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    background-color: $font-color;
+    margin-top: 50px;
+    border-radius: 4px;
+    padding: 30px;
+
+    p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        label {
+            font-size: 14px;
+            color: $label-color;
+            font-weight: bold;
+            margin-bottom: 8px;
+
+            span {
+                font-weight: normal;
+                font-size: 12px;
+                color: #999;
+            }
+        }
+
+        input {
+            margin-bottom: 20px;
+            border: 1px solid $input-border-color;
+            border-radius: 2px;
+            height: 45px;
+            padding: 0 15px;
+            font-size: 14px;
+        }
+    }
+
+    button.btn {
+        border: 0;
+        border-radius: 2px;
+        width: 100%;
+        height: 42px;
+        padding: 0 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        background-color: $button-color;
+        color: $font-color;
+        cursor: pointer;
+        transition: background 0.2s;
+
+        &:hover {
+            background: $button-color-hover;
+            transition: background 0.2s;
+        }
+    }
+}

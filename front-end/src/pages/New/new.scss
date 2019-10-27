@@ -1,0 +1,15 @@
+label#thumbnail {
+    margin-bottom: 20px;
+    border: 1px dashed #ddd;
+    background-size: cover;
+    height: 160px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+    input {
+        display: none;
+    }
+}
