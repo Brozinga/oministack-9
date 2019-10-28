@@ -14,7 +14,6 @@ const spotList = ({ tech }) => {
                 params: { tech }
             })
 
-            console.log(response.data);
         }
 
         getAllDataTechs();
