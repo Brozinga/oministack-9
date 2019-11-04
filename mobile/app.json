@@ -24,7 +24,17 @@
       "**/*"
     ],
     "ios": {
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      },
+      "bundleIdentifier": "com.broztec.aircnc",
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.broztec.aircnc"
+    },
+    "description": ""
   }
 }
